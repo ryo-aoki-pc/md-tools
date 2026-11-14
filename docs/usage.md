@@ -14,7 +14,7 @@
 
 - 設計は [md-preview の設計](reference/readme.md) にある
 - Neovim からは [LazyVimStarter](https://github.com/ryo-aoki-pc/LazyVimStarter) の `<leader>cp` で使う。未保存の内容の表示、カーソルに合わせたスクロール、本文のダブルクリックでエディタの行へ移る操作、プレビューの画面の「編集」で直した内容のバッファへの反映を扱う
-- Neovim の導入は、setup-notes の [LazyVim の GitLab プレビューを導入する](https://github.com/ryo-aoki-pc/setup-notes/blob/main/docs/neovim.md#lazyvim-の-gitlab-プレビューを導入する)・[Windows 11 で LazyVim の GitLab プレビューを導入する](https://github.com/ryo-aoki-pc/setup-notes/blob/main/docs/neovim.md#windows-11-で-lazyvim-の-gitlab-プレビューを導入する)に従う
+- AlmaLinux 10 の Neovim の導入は、setup-notes の [LazyVim の GitLab プレビューを導入する](https://github.com/ryo-aoki-pc/setup-notes/blob/main/docs/neovim.md#lazyvim-の-gitlab-プレビューを導入する)に従う。Windows 11 は Neovim・LazyVimStarter と md-preview が入り、`<leader>cp` を使えることを前提にする
 - 外へ通信する場面は [README](../README.md#外へ通信する場面) にある
 - `mdpreview --licenses` で、同梱しているもののライセンスの原文を出す。一覧は [licenses/manifest.json](../licenses/manifest.json) にある
 - PlantUML のコードブロックは、`plantuml` コマンドが PATH にあれば、手元で SVG にして表示する（Windows 11 の導入は [Windows 11 で PlantUML を入れる](install.md#windows-11-で-plantuml-を入れる)）。コマンドが無い場合、`--no-plantuml` を付けた場合、原文が 256 KiB を超える場合は、コードブロックのまま表示し、「GitLab との違い」の「図」で知らせる
